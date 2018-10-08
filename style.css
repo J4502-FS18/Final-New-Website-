@@ -5,7 +5,7 @@
 }*/
 
 p {
-	color: #black;
+	color: black;
     font-family: 'Roboto', Helvetica, sans-serif;
 
 }
@@ -59,7 +59,7 @@ h1 {
 }
 
 #footer {
-    color: #black;
+    color: black;
     font-family: 'Averia Serif Libre', "Times New Roman", serif;
     font-size: 0.8em;
     border-top: 1px solid black;
