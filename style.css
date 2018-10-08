@@ -1,0 +1,71 @@
+/*styles go here*/
+
+/*p {
+    color: red;
+}*/
+
+p {
+	color: #black;
+    font-family: 'Roboto', Helvetica, sans-serif;
+
+}
+body {background-color: #ff6961;}
+
+
+h1 {
+	color: #3a4660;
+	font-family: 'Roboto', Helvetica, sans-serif;
+	text-align: center
+}
+
+#container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+#nav {
+    padding: 0;
+	  list-style-type: none;
+}
+
+#nav li {
+    margin: 0;
+    padding: 0;
+	  border-bottom: 1px solid #ccc;
+}
+
+#nav a:link, #nav a:visited {
+	  display:block;
+    color: #3a4660;
+    background-color: #c9af98;
+    font-weight: bold;
+    text-align:center;
+    text-decoration: none;
+    padding: 4px;
+		font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+#nav a:hover, #nav a:active {
+    background-color: #FF6961;
+}
+
+.caption {
+    color: black;
+		font-family: 'Lato', 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 0.8em;
+    margin-top: 0;
+    text-align: left;
+}
+
+#footer {
+    color: #black;
+    font-family: 'Averia Serif Libre', "Times New Roman", serif;
+    font-size: 0.8em;
+    border-top: 1px solid black;
+}
+
+img {
+	border: none;
+
+}
