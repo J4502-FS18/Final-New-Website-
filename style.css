@@ -105,7 +105,6 @@ article {
 }
 
 
-}
 
 @media screen and (min-width: 450px) {
 
@@ -207,9 +206,4 @@ nav ul {
     nav {
         order: 2;
     }
-}
-
-
-
-  }
 }
