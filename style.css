@@ -16,25 +16,55 @@ h1 {
 	color: #3a4660;
 	font-family: 'Roboto', Helvetica, sans-serif;
 	text-align: center
+
 }
 
+.menu-trigger {
+	order: 1;
+	font-size: 1.75em;
+	width: 1em;
+}
+
+
+@media screen and (min-width: 200px){
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        border-top: none;
+    }
+
+    .menu-trigger {
+        display: none;
+    }
+
+    header h1 {
+        order: 1;
+    }
+
+    nav {
+        order: 2;
+    }
+}
 #container{
     width: 95%;
     margin: 0 auto;
 }
 
-#nav {
+nav ul li {
     padding: 0;
 	  list-style-type: none;
 }
 
-#nav li {
+nav ul li {
     margin: 0;
     padding: 0;
 	  border-bottom: 1px solid #ccc;
 }
 
-#nav a:link, #nav a:visited {
+nav a:link, nav a:visited {
 	  display:block;
     color: #3a4660;
     background-color: #c9af98;
@@ -45,7 +75,7 @@ h1 {
 		font-family: 'Roboto', Helvetica, sans-serif;
 }
 
-#nav a:hover, #nav a:active {
+nav a:hover, nav a:active {
     background-color: #FF6961;
 }
 
@@ -69,7 +99,7 @@ h1 {
 
 
 
-#nav {
+nav ul {
 	display: flex;
 	flex-direction: column;
 }
@@ -151,7 +181,7 @@ article {
     grid-template-areas:
         "a b b"
         "c c e"
-        "d d d";
+        ". d d";
   }
 
   .authorbox {
@@ -160,14 +190,16 @@ article {
   }
 
   .section1 {
-    grid-area: d;
+    grid-area: a;
   }
 
 	.section2 {
 		grid-area: b;
 
 	}
-
+.section3{
+	grid-area: c;
+}
 
   .section1 p:first-of-type, {
     margin-top: 0;
